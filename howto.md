@@ -1,0 +1,11 @@
+- Open AWS Lab
+- create AWS S3 buckets
+    - input
+    - output
+    - layer
+- download numpy and pillow zips
+- upload them (zipped) into layer bucket
+- create new lambda function con role LabRole
+- public it from congiguration->url->active
+- add layers with arn to Lambda/layers, then add it to your lambda function
+- add env variables from config from configuaration (INPUT_BUCKET : {input}) same for output without arn and aws
