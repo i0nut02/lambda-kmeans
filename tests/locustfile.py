@@ -4,8 +4,8 @@ import json
 
 PROBABILITIES = [0.3, 0.5, 0.2] # insert distribution probs
 INDEX_MAP = {0:"small", 1 : "medium", 2 : "large"}
-K_MIN = 4
-K_MAX = 4
+K_MIN = 2
+K_MAX = 8
 
 class WebsiteUser(HttpUser):
     """
